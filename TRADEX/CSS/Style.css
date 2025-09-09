@@ -1,0 +1,585 @@
+ *{
+    padding: 0;
+    margin: 0;
+ }
+ body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 1);
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0C65ED
+}
+.carousel-indicators {
+    margin: 0;
+    flex-direction: column;
+    align-items: end;
+    bottom: 40%;
+    margin-right: 30px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+}
+.heading{
+    font-size: 60px;
+}
+.carousel-caption {
+    padding-bottom: 15%;
+}
+#main .title{
+    position: relative;
+    padding: 0 25%;
+}
+#main h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#main h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#main span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#main span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+
+}
+.content-box {
+    position: static;
+   
+}
+@media (min-width:767px) {
+    .content-box{
+        position: relative;
+        left: 100px;
+        top: 40px;
+    }
+}
+
+.content-box i{
+   font-size: 30px;
+   
+}
+.content-box i:hover{
+    color: #0C65ED;
+}
+.content-box h5:hover{
+    color: #0C65ED;
+}
+ul li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#services{
+    color: #F8F9FA;
+    background-image: url(https://dazzlersoftware.com/testwp/munix-pro/wp-content/themes/munix-pro/img/service-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+#services .overlay{
+    padding: 80px 0;
+    background-color: rgba(0, 0, 0, 0.89);
+}
+
+#services .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#services .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#services .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#services .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+
+}
+#services .item{
+    padding: 70px 20px;
+    overflow: hidden;
+}
+#services .paragraph{
+    position: absolute;
+    height: 100%;
+    top: 238px;
+    right: 0;
+}
+#services .item:hover .paragraph{
+   transition: all 0.5s;
+    top: 0;
+    right: 0;
+}
+
+#our-work{
+    padding: 80px 0;
+}
+
+#our-work .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#our-work .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#our-work .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#our-work .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+
+}
+#our-work .item{
+    overflow: hidden;
+}
+#our-work .paragraph{
+    position: absolute;
+    transform: scale(0);
+    top: 78%;
+    left: 15%;
+    background-color: #0d6dfdc8;
+}
+#our-work .paragraph button{
+   font-size: 30px;
+}
+#our-work .item:hover .paragraph{
+   transition: all 0.5s;
+   transform: scale(1);
+   
+}
+#our-work .item:hover img{
+    box-shadow: 5px 5px 5px 5xp rgba(128, 128, 128, 0.463);
+ }
+
+
+#our-team{
+    padding: 80px 0;
+}
+
+#our-team .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#our-team .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#our-team .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#our-team .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+}
+#our-team .paragraph{
+    height: 220px;
+    position: absolute;
+    top: 75%;
+    left: 0;
+}
+#our-team .item:hover .paragraph{
+   transition: all 0.5s;
+   top: 45%;
+   left: 0;
+}
+#our-team .social{
+    position: absolute;
+    top: 100%;
+    left: 12.5%;
+}
+#our-team .item:hover .social{
+    transition: all 1s;
+    top: 79%;
+    left: 12.5%;
+    background-color: #0C65ED;
+ }
+ #our-team i:hover {
+    color: black;
+ }
+
+
+
+ #our-pricing{
+    padding: 80px 0;
+ }
+ #our-pricing .title p{
+    margin: 20px 170px 30px;
+    width: 90%;
+
+}
+ #our-pricing .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#our-pricing .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#our-pricing .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#our-pricing .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+}
+#our-pricing hr{
+    height: 2px;
+    opacity: 1;
+}
+#our-pricing .shadow-5{
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.25);
+}
+#our-pricing .btn-highlight:hover{
+    background-color:#0C65ED ;
+    color: white;
+}
+#our-pricing .btn-select:focus{
+    background-color:white ;
+    color: #0C65ED;
+    box-shadow: none;
+    box-sizing: content-box;
+}
+#subscribe{
+    padding: 70px 0;
+    background-color: #191919;
+}
+
+
+#Testimonial{
+    padding: 80px 0;
+ }
+ #Testimonial .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#Testimonial .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#Testimonial .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#Testimonial .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+}
+
+
+#latest-blog{
+    padding: 80px 0;
+}
+#latest-blog .title p{
+    margin: 20px 170px 30px;
+    width: 90%;
+
+}
+
+#latest-blog .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    left: -90px ;
+
+}
+#latest-blog .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    top: 50%;
+    right: -90px ;
+
+}
+#latest-blog .card-title:hover{
+    color: #0C65ED;
+}
+#latest-blog .card .social {
+    background-color: #212529;
+}
+#latest-blog .card:hover .social {
+    color: #0C65ED;
+    background-color: #0C65ED;
+}
+#latest-blog .card .Icon{
+    color: #F8F9FA;
+    font-size: 1.25rem;
+    padding: 10px 0;
+
+}
+#latest-blog .card .Icon:hover{
+    color: #0C65ED;
+}
+.progress-bar{
+    width: 25%;
+}
+#latest-blog .card:hover .progress-bar {
+    width: 100%;
+}
+#latest-blog .card:hover img {
+   transform: rotate(-5deg);
+   scale: 1.1;
+   transition-duration: 1s ;
+}
+
+
+
+#our-client{
+    padding-top: 80px;
+}
+
+#our-client .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+
+#our-client .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 3px;
+    width: 50px;
+    position: absolute;
+    top: 44%;
+    right: -70px ;
+}
+
+
+#purchase{
+    padding: 50px ;
+    background-color: #0C65ED;
+}
+
+#footer{
+    padding: 80px ;
+    background-color: #1A1A1A;
+}
+#footer hr{
+    height: 2px;
+    opacity: 1;
+}
+#footer .card{
+    background-color: #1A1A1A;
+    
+}
+#after-footer{
+    padding: 20px 0;
+    background-color: #1A1A1A;
+    box-shadow: 0 0 18px 0 rgba(0, 0, 0, 0.5);
+}
+
+#contact-main{
+    background-image: url(/Test/Images/slider1.jpg);
+    height: 400px
+}
+#contact-main .overlay{
+    background-color: rgba(0, 0, 0, 0.715);
+    height: 100%;
+    background-size: cover ;
+}
+
+#contact-info{
+    padding: 80px 0;
+}
+
+#contact-info .title h1::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    left: -90px ;
+
+}
+#contact-info .title h1::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 1px;
+    width: 70px;
+    position: absolute;
+    top: 60%;
+    right: -90px ;
+
+}
+#contact-info .title span::after{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: -70px ;
+
+}
+#contact-info .title span::before{
+    content: "";
+    background-color: #0C65ED;
+    height: 2px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    right: -70px ;
+}
